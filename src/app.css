@@ -1,0 +1,60 @@
+.full {
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 600px;
+    width: 600px;
+}
+
+.display {
+    margin: 10px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 500px;
+    background: red;
+    display: flex;
+
+}
+
+.btns {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.property {
+    height: 200px;
+    width: 240px;
+}
+
+.value {
+    height: 200px;
+    width: 240px;
+}
+
+.btn {
+    height: 50px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(90, 90, 255);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(4, 4, 131);
+    color: white;
+}
+
+.property {
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.value {
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
